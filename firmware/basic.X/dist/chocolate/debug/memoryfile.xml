@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/chocolate/debug/basic.X.debug.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>193408</length>                 
+      <used>174904</used>                     
+      <free>18504</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>525184</length>                 
+      <used>6688</used>                     
+      <free>518496</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

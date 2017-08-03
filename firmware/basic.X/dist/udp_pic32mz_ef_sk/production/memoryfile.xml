@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/udp_pic32mz_ef_sk/production/basic.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>193408</length>                 
+      <used>129420</used>                     
+      <free>63988</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>524288</length>                 
+      <used>3136</used>                     
+      <free>521152</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
