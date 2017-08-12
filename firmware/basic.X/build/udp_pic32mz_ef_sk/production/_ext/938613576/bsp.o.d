@@ -4,7 +4,7 @@ build/udp_pic32mz_ef_sk/production/_ext/938613576/bsp.o:  \
  ../../../../../framework/peripheral/ports/plib_ports.h  \
  ../../../../../framework/peripheral/ports/processor/ports_processor.h  \
  ../../../../../framework/peripheral/ports/processor/ports_p32xxxx.h  \
- ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_RemapInput_default.h  \

@@ -48,6 +48,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 #ifndef _SYSTEM_CONFIG_H
 #define _SYSTEM_CONFIG_H
+#define CHOCOLATE
 
 // *****************************************************************************
 // *****************************************************************************
@@ -94,7 +95,7 @@ extern "C" {
 #define SYS_CLK_CONFIG_SECONDARY_XTAL       32768ul
    
 /*** Ports System Service Configuration ***/
-#define SYS_PORT_A_ANSEL        0x3F23
+#define SYS_PORT_A_ANSEL        0x3900
 #define SYS_PORT_A_TRIS         0xFFFF
 #define SYS_PORT_A_LAT          0x0000
 #define SYS_PORT_A_ODC          0x0000
@@ -102,7 +103,7 @@ extern "C" {
 #define SYS_PORT_A_CNPD         0x0000
 #define SYS_PORT_A_CNEN         0x0000
 
-#define SYS_PORT_B_ANSEL        0x3FC2
+#define SYS_PORT_B_ANSEL        0x0000
 #define SYS_PORT_B_TRIS         0x3FFE
 #define SYS_PORT_B_LAT          0x0000
 #define SYS_PORT_B_ODC          0x0000
@@ -110,7 +111,7 @@ extern "C" {
 #define SYS_PORT_B_CNPD         0x0000
 #define SYS_PORT_B_CNEN         0x0000
 
-#define SYS_PORT_C_ANSEL        0xFFFF
+#define SYS_PORT_C_ANSEL        0x0FE1
 #define SYS_PORT_C_TRIS         0xFFFF
 #define SYS_PORT_C_LAT          0x0000
 #define SYS_PORT_C_ODC          0x0000
@@ -118,7 +119,7 @@ extern "C" {
 #define SYS_PORT_C_CNPD         0x0000
 #define SYS_PORT_C_CNEN         0x0000
 
-#define SYS_PORT_D_ANSEL        0xC1C0
+#define SYS_PORT_D_ANSEL        0x01C0
 #define SYS_PORT_D_TRIS         0xFFFF
 #define SYS_PORT_D_LAT          0x0000
 #define SYS_PORT_D_ODC          0x0000
@@ -126,7 +127,7 @@ extern "C" {
 #define SYS_PORT_D_CNPD         0x0000
 #define SYS_PORT_D_CNEN         0x0000
 
-#define SYS_PORT_E_ANSEL        0xFFF0
+#define SYS_PORT_E_ANSEL        0xFC00
 #define SYS_PORT_E_TRIS         0xFFFF
 #define SYS_PORT_E_LAT          0x0000
 #define SYS_PORT_E_ODC          0x0000
@@ -134,7 +135,7 @@ extern "C" {
 #define SYS_PORT_E_CNPD         0x0000
 #define SYS_PORT_E_CNEN         0x0000
 
-#define SYS_PORT_F_ANSEL        0xFEC0
+#define SYS_PORT_F_ANSEL        0xCEC0
 #define SYS_PORT_F_TRIS         0xFFF7
 #define SYS_PORT_F_LAT          0x0008
 #define SYS_PORT_F_ODC          0x0000
@@ -142,7 +143,7 @@ extern "C" {
 #define SYS_PORT_F_CNPD         0x0000
 #define SYS_PORT_F_CNEN         0x0000
 
-#define SYS_PORT_G_ANSEL        0x8F3C
+#define SYS_PORT_G_ANSEL        0x0C3C
 #define SYS_PORT_G_TRIS         0xFF3F
 #define SYS_PORT_G_LAT          0x0000
 #define SYS_PORT_G_ODC          0x0000
@@ -405,8 +406,7 @@ extern "C" {
 
 
 #define TCPIP_EMAC_PHY_CONFIG_FLAGS     			\
-                                                    DRV_ETHPHY_CFG_RMII | \
-                                                    DRV_ETHPHY_CFG_ALTERNATE | \
+                                                    DRV_ETHPHY_CFG_AUTO | \
                                                     0                                                    
 
 #define TCPIP_EMAC_PHY_LINK_INIT_DELAY  			1000

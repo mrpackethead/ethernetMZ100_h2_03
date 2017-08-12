@@ -108,12 +108,25 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 int APP_ForceBootloaderCheck(void)
 {
+ 
+#if defined(CHOCOLATE)
+    
     if (!DIP4StateGet())
         {
         LED2On();
         return (1);
         }
+#endif
     
+#if defined(EFSTARTERKIT)
+   
+    if(BSP_SWITCH_1StateGet())
+         {
+        BSP_LED_2On();
+        return (1);
+        }
+        
+#endif   
     
     return (0);
 }
@@ -144,20 +157,9 @@ int APP_ForceBootloaderCheck(void)
 void APP_Initialize ( void )
 {
  
-    int i;
+
     
-   // reset the Phy  
-//   nRSTOn();
-//    for(i=0;i<10000;i++){
-//    }
-//    nRSTOff();
-//    for(i=0;i<10000;i++){
-//    }
-//    nRSTOn();
-//    for(i=0;i<10000;i++){
-//    }
- 
-    
+  
    
     
     // Register the bootloader callbacks
@@ -174,8 +176,11 @@ void APP_Initialize ( void )
 void APP_Tasks (void)
 {
     
+    
     // Blink the LED
     if ((_CP0_GET_COUNT() & 0x2000000) != 0)
+    
+#if defined(CHOCOLATE)
     {
         LED1On(); 
     }
@@ -183,6 +188,19 @@ void APP_Tasks (void)
     {
         LED1Off(); 
     }
+#endif
+    
+#if defined(EFSTARTERKIT)
+    {
+       BSP_LED_1On();
+    }
+    else
+    {
+       BSP_LED_1Off(); 
+    }
+#endif
+
+    
 }
 
 

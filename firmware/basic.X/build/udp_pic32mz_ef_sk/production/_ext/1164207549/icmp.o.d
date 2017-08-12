@@ -1,12 +1,12 @@
-build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
- ../../../../../framework/tcpip/src/tcpip_manager.c  \
+build/udp_pic32mz_ef_sk/production/_ext/1164207549/icmp.o:  \
+ ../../../../../framework/tcpip/src/icmp.c  \
  ../../../../../framework/tcpip/src/tcpip_private.h  \
- ../src/system_config/chocolate/system_config.h  \
- ../src/system_config/chocolate/bsp/bsp.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/system_config.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/bsp/bsp.h  \
  ../../../../../framework/peripheral/ports/plib_ports.h  \
  ../../../../../framework/peripheral/ports/processor/ports_processor.h  \
  ../../../../../framework/peripheral/ports/processor/ports_p32xxxx.h  \
- ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_RemapInput_default.h  \
@@ -34,16 +34,16 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_ChangeNoticeEdgeControl_Default.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_ChangeNoticeEdgeStatus_Default.h  \
  ../../../../../framework/peripheral/ports/plib_ports_compatibility.h  \
- ../src/system_config/chocolate/system_definitions.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/system_definitions.h  \
  ../../../../../framework/system/common/sys_common.h  \
  ../../../../../framework/system/common/sys_module.h  \
- ../src/system_config/chocolate/framework/system/devcon/sys_devcon.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/framework/system/devcon/sys_devcon.h  \
  ../../../../../framework/system/system.h  \
- ../src/system_config/chocolate/framework/system/reset/sys_reset.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/framework/system/reset/sys_reset.h  \
  ../../../../../framework/peripheral/reset/plib_reset.h  \
  ../../../../../framework/peripheral/reset/processor/reset_processor.h  \
  ../../../../../framework/peripheral/reset/processor/reset_p32xxxx.h  \
- ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_ResetReasonStatus_MZ.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_SoftwareResetTrigger_Default.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_ConfigRegReadError_Default.h  \
@@ -54,7 +54,7 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/peripheral/osc/plib_osc.h  \
  ../../../../../framework/peripheral/osc/processor/osc_processor.h  \
  ../../../../../framework/peripheral/osc/processor/osc_p32xxxx.h  \
- ../../../../../framework/peripheral/osc/processor/osc_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/osc/processor/osc_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_OnWaitAction_Default.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_SecondaryEnable_Default.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_SecondaryReady_Default_1.h  \
@@ -111,7 +111,7 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/peripheral/int/processor/int_processor.h  \
  ../../../../../framework/peripheral/int/processor/int_p32xxxx.h  \
  ../../../../../framework/peripheral/int/plib_int_private_pic32.h  \
- ../../../../../framework/peripheral/int/processor/int_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/int/processor/int_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_SingleVectorShadowSet_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_VectorSelect_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_ProximityTimerEnable_Default.h  \
@@ -135,7 +135,7 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/peripheral/tmr/plib_tmr.h  \
  ../../../../../framework/peripheral/tmr/processor/tmr_processor.h  \
  ../../../../../framework/peripheral/tmr/processor/tmr_p32xxxx.h  \
- ../../../../../framework/peripheral/tmr/processor/tmr_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/tmr/processor/tmr_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_GatedTimeAccumulation_Default.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_registers.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_ClockSource_Default.h  \
@@ -168,7 +168,7 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/peripheral/eth/plib_eth.h  \
  ../../../../../framework/peripheral/eth/processor/eth_processor.h  \
  ../../../../../framework/peripheral/eth/processor/eth_p32xxxx.h  \
- ../../../../../framework/peripheral/eth/processor/eth_p32mz2048efm100.h  \
+ ../../../../../framework/peripheral/eth/processor/eth_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_PauseTimer_Default.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_registers.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_Enable_Default.h  \
@@ -253,7 +253,6 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/tcpip/iperf.h  \
  ../../../../../framework/tcpip/tcpip_commands.h  \
  ../../../../../framework/driver/ethmac/drv_ethmac.h  \
- ../../../../../framework/driver/miim/drv_miim.h  \
 ../src/app.h  \
  ../../../../../framework/system/debug/sys_debug.h  \
  ../../../../../framework/system/console/sys_console.h  \
@@ -303,5 +302,4 @@ build/chocolate/debug/_ext/1164207549/tcpip_manager.o:  \
  ../../../../../framework/tcpip/src/tcpip_packet.h  \
  ../../../../../framework/tcpip/src/oahash.h  \
  ../../../../../framework/tcpip/src/hash_fnv.h  \
- ../../../../../framework/tcpip/src/tcpip_notify.h  \
- ../../../../../framework/tcpip/src/tcpip_module_manager.h 
+ ../../../../../framework/tcpip/src/tcpip_notify.h 

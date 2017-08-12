@@ -7,7 +7,7 @@ build/udp_pic32mz_ef_sk/production/_ext/1532728844/sys_reset.o:  \
  ../../../../../framework/peripheral/reset/plib_reset.h  \
  ../../../../../framework/peripheral/reset/processor/reset_processor.h  \
  ../../../../../framework/peripheral/reset/processor/reset_p32xxxx.h  \
- ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_ResetReasonStatus_MZ.h  \
@@ -20,7 +20,7 @@ build/udp_pic32mz_ef_sk/production/_ext/1532728844/sys_reset.o:  \
  ../../../../../framework/peripheral/devcon/plib_devcon.h  \
  ../../../../../framework/peripheral/devcon/processor/devcon_processor.h  \
  ../../../../../framework/peripheral/devcon/processor/devcon_p32xxxx.h  \
- ../../../../../framework/peripheral/devcon/processor/devcon_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/devcon/processor/devcon_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/devcon/processor/../templates/devcon_AlternateClock_Default.h  \
  ../../../../../framework/peripheral/devcon/processor/../templates/devcon_DeviceRegsLockUnlock_PIC32MZ.h  \
  ../../../../../framework/peripheral/devcon/processor/../templates/devcon_OTPConfigLockUnlock_Unsupported.h  \

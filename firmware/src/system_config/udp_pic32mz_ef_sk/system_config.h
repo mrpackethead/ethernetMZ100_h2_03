@@ -48,6 +48,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 #ifndef _SYSTEM_CONFIG_H
 #define _SYSTEM_CONFIG_H
+#define EFSTARTERKIT
 
 // *****************************************************************************
 // *****************************************************************************
@@ -92,9 +93,6 @@ extern "C" {
 #define SYS_CLK_BUS_PERIPHERAL_8            100000000ul
 #define SYS_CLK_CONFIG_PRIMARY_XTAL         24000000ul
 #define SYS_CLK_CONFIG_SECONDARY_XTAL       0ul
-#define SYS_CLK_CONFIG_FREQ_ERROR_LIMIT     10
-#define SYS_CLK_WAIT_FOR_SWITCH             true
-#define SYS_CLK_ON_WAIT                     OSC_ON_WAIT_IDLE 
    
 /*** Ports System Service Configuration ***/
 #define SYS_PORT_A_ANSEL        0x3F20
@@ -121,7 +119,7 @@ extern "C" {
 #define SYS_PORT_C_CNPD         0x0000
 #define SYS_PORT_C_CNEN         0x0000
 
-#define SYS_PORT_D_ANSEL        0xC100
+#define SYS_PORT_D_ANSEL        0x0100
 #define SYS_PORT_D_TRIS         0xFFFF
 #define SYS_PORT_D_LAT          0x0000
 #define SYS_PORT_D_ODC          0x0000
@@ -145,7 +143,7 @@ extern "C" {
 #define SYS_PORT_F_CNPD         0x0000
 #define SYS_PORT_F_CNEN         0x0000
 
-#define SYS_PORT_G_ANSEL        0x8FFC
+#define SYS_PORT_G_ANSEL        0x8F7C
 #define SYS_PORT_G_TRIS         0xFFFF
 #define SYS_PORT_G_LAT          0x0000
 #define SYS_PORT_G_ODC          0x0000
@@ -153,7 +151,7 @@ extern "C" {
 #define SYS_PORT_G_CNPD         0x0000
 #define SYS_PORT_G_CNEN         0x0000
 
-#define SYS_PORT_H_ANSEL        0x0040
+#define SYS_PORT_H_ANSEL        0x0000
 #define SYS_PORT_H_TRIS         0xFFF8
 #define SYS_PORT_H_LAT          0x0000
 #define SYS_PORT_H_ODC          0x0000
@@ -313,6 +311,9 @@ extern "C" {
 
 
 
+/*** ICMPv4 Server Configuration ***/
+#define TCPIP_STACK_USE_ICMP_SERVER
+
 
 
 
@@ -396,12 +397,12 @@ extern "C" {
 /*** Network Configuration Index 0 ***/
 #define TCPIP_NETWORK_DEFAULT_INTERFACE_NAME		"PIC32INT"
 #define TCPIP_IF_PIC32INT
-#define TCPIP_NETWORK_DEFAULT_HOST_NAME				"MCHPBOARD_E"
+#define TCPIP_NETWORK_DEFAULT_HOST_NAME				"DEVBOARD"
 #define TCPIP_NETWORK_DEFAULT_MAC_ADDR				0
-#define TCPIP_NETWORK_DEFAULT_IP_ADDRESS			"192.168.1.11"
+#define TCPIP_NETWORK_DEFAULT_IP_ADDRESS			"10.10.10.9"
 #define TCPIP_NETWORK_DEFAULT_IP_MASK				"255.255.255.0"
-#define TCPIP_NETWORK_DEFAULT_GATEWAY				"192.168.1.11"
-#define TCPIP_NETWORK_DEFAULT_DNS					"192.168.1.11"
+#define TCPIP_NETWORK_DEFAULT_GATEWAY				"10.10.10.1"
+#define TCPIP_NETWORK_DEFAULT_DNS					"0.0.0.0"
 #define TCPIP_NETWORK_DEFAULT_SECOND_DNS			"0.0.0.0"
 #define TCPIP_NETWORK_DEFAULT_POWER_MODE			"full"
 #define TCPIP_NETWORK_DEFAULT_INTERFACE_FLAGS			\

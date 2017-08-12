@@ -5,7 +5,7 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/peripheral/ports/plib_ports.h  \
  ../../../../../framework/peripheral/ports/processor/ports_processor.h  \
  ../../../../../framework/peripheral/ports/processor/ports_p32xxxx.h  \
- ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_RemapInput_default.h  \
@@ -38,12 +38,23 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/system/common/sys_module.h  \
  ../src/system_config/udp_pic32mz_ef_sk/framework/system/devcon/sys_devcon.h  \
  ../../../../../framework/system/system.h  \
+ ../src/system_config/udp_pic32mz_ef_sk/framework/system/reset/sys_reset.h  \
+ ../../../../../framework/peripheral/reset/plib_reset.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_processor.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_p32xxxx.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efm144.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_ResetReasonStatus_MZ.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_SoftwareResetTrigger_Default.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_ConfigRegReadError_Default.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_NmiControl_Default.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_WdtoInSleep_Default.h  \
+ ../../../../../framework/peripheral/reset/processor/../templates/reset_NmiCounter_Default.h  \
  ../../../../../framework/system/clk/sys_clk.h  \
  ../src/system_config/udp_pic32mz_ef_sk/system_config.h  \
  ../../../../../framework/peripheral/osc/plib_osc.h  \
  ../../../../../framework/peripheral/osc/processor/osc_processor.h  \
  ../../../../../framework/peripheral/osc/processor/osc_p32xxxx.h  \
- ../../../../../framework/peripheral/osc/processor/osc_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/osc/processor/osc_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_OnWaitAction_Default.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_SecondaryEnable_Default.h  \
  ../../../../../framework/peripheral/osc/processor/../templates/osc_SecondaryReady_Default_1.h  \
@@ -100,7 +111,7 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/peripheral/int/processor/int_processor.h  \
  ../../../../../framework/peripheral/int/processor/int_p32xxxx.h  \
  ../../../../../framework/peripheral/int/plib_int_private_pic32.h  \
- ../../../../../framework/peripheral/int/processor/int_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/int/processor/int_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_SingleVectorShadowSet_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_VectorSelect_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_ProximityTimerEnable_Default.h  \
@@ -124,7 +135,7 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/peripheral/tmr/plib_tmr.h  \
  ../../../../../framework/peripheral/tmr/processor/tmr_processor.h  \
  ../../../../../framework/peripheral/tmr/processor/tmr_p32xxxx.h  \
- ../../../../../framework/peripheral/tmr/processor/tmr_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/tmr/processor/tmr_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_GatedTimeAccumulation_Default.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_registers.h  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_ClockSource_Default.h  \
@@ -143,17 +154,6 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/peripheral/tmr/processor/../templates/tmr_TimerOperationMode_Default.h  \
  ../../../../../framework/driver/tmr/tmr_definitions_pic32m.h  \
  ../../../../../framework/driver/tmr/drv_tmr_compatibility.h  \
- ../src/system_config/udp_pic32mz_ef_sk/framework/system/reset/sys_reset.h  \
- ../../../../../framework/peripheral/reset/plib_reset.h  \
- ../../../../../framework/peripheral/reset/processor/reset_processor.h  \
- ../../../../../framework/peripheral/reset/processor/reset_p32xxxx.h  \
- ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efh144.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_ResetReasonStatus_MZ.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_SoftwareResetTrigger_Default.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_ConfigRegReadError_Default.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_NmiControl_Default.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_WdtoInSleep_Default.h  \
- ../../../../../framework/peripheral/reset/processor/../templates/reset_NmiCounter_Default.h  \
  ../../../../../framework/bootloader/src/bootloader.h  \
  ../../../../../framework/bootloader/src/datastream.h  \
  ../../../../../framework/bootloader/src/nvm.h  \
@@ -168,7 +168,7 @@ build/udp_pic32mz_ef_sk/production/_ext/2145045400/system_tasks.o:  \
  ../../../../../framework/peripheral/eth/plib_eth.h  \
  ../../../../../framework/peripheral/eth/processor/eth_processor.h  \
  ../../../../../framework/peripheral/eth/processor/eth_p32xxxx.h  \
- ../../../../../framework/peripheral/eth/processor/eth_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/eth/processor/eth_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_PauseTimer_Default.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_registers.h  \
  ../../../../../framework/peripheral/eth/processor/../templates/eth_Enable_Default.h  \

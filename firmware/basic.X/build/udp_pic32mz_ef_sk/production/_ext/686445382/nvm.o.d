@@ -6,7 +6,7 @@ build/udp_pic32mz_ef_sk/production/_ext/686445382/nvm.o:  \
  ../../../../../framework/peripheral/ports/plib_ports.h  \
  ../../../../../framework/peripheral/ports/processor/ports_processor.h  \
  ../../../../../framework/peripheral/ports/processor/ports_p32xxxx.h  \
- ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_RemapInput_default.h  \
@@ -37,7 +37,7 @@ build/udp_pic32mz_ef_sk/production/_ext/686445382/nvm.o:  \
  ../../../../../framework/peripheral/nvm/plib_nvm.h  \
  ../../../../../framework/peripheral/nvm/processor/nvm_processor.h  \
  ../../../../../framework/peripheral/nvm/processor/nvm_p32xxxx.h  \
- ../../../../../framework/peripheral/nvm/processor/nvm_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/nvm/processor/nvm_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/nvm/processor/../templates/nvm_WriteErrorStatus_Default.h  \
  ../../../../../framework/peripheral/nvm/processor/../templates/nvm_MemoryModificationControl_Default.h  \
  ../../../../../framework/peripheral/nvm/processor/../templates/nvm_OperationMode_Default.h  \
@@ -77,7 +77,7 @@ build/udp_pic32mz_ef_sk/production/_ext/686445382/nvm.o:  \
  ../../../../../framework/peripheral/int/processor/int_processor.h  \
  ../../../../../framework/peripheral/int/processor/int_p32xxxx.h  \
  ../../../../../framework/peripheral/int/plib_int_private_pic32.h  \
- ../../../../../framework/peripheral/int/processor/int_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/int/processor/int_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_SingleVectorShadowSet_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_VectorSelect_Default.h  \
  ../../../../../framework/peripheral/int/processor/../templates/int_ProximityTimerEnable_Default.h  \

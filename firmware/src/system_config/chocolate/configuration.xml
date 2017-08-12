@@ -878,6 +878,7 @@
         <Name dnOrder="0">system_init.c</Name>
         <Path dnOrder="1">Source Files/app/system_config/chocolate</Path>
         <Checksum dnOrder="2">8372DE9029B623C65FBE1C9D8C3B8902</Checksum>
+        <ProjectFileChecksum dnOrder="3">1ABF683C43FA49570D276B3D59F3D271</ProjectFileChecksum>
       </Template>
       <Template dnOrder="14">
         <Name dnOrder="0">sys_clk_pic32mz.c</Name>
@@ -906,7 +907,8 @@
       <Template dnOrder="19">
         <Name dnOrder="0">system_config.h</Name>
         <Path dnOrder="1">Header Files/app/system_config/chocolate</Path>
-        <Checksum dnOrder="2">4F7136A769904AAC9A48CD36620CE020</Checksum>
+        <Checksum dnOrder="2">4D9B2061D7C7FFE4F10E9E888F2E7BDF</Checksum>
+        <ProjectFileChecksum dnOrder="3">6BB0AB824D0C1B781953A142668D5473</ProjectFileChecksum>
       </Template>
       <Template dnOrder="20">
         <Name dnOrder="0">sys_devcon_local.h</Name>

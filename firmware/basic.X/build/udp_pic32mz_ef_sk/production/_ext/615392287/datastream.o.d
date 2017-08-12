@@ -12,7 +12,7 @@ build/udp_pic32mz_ef_sk/production/_ext/615392287/datastream.o:  \
  ../../../../../framework/peripheral/ports/plib_ports.h  \
  ../../../../../framework/peripheral/ports/processor/ports_processor.h  \
  ../../../../../framework/peripheral/ports/processor/ports_p32xxxx.h  \
- ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/ports/processor/ports_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/peripheral_common_32bit.h  \
  ../../../../../framework/peripheral/peripheral_common.h  \
  ../../../../../framework/peripheral/ports/processor/../templates/ports_RemapInput_default.h  \
@@ -46,7 +46,7 @@ build/udp_pic32mz_ef_sk/production/_ext/615392287/datastream.o:  \
  ../../../../../framework/peripheral/reset/plib_reset.h  \
  ../../../../../framework/peripheral/reset/processor/reset_processor.h  \
  ../../../../../framework/peripheral/reset/processor/reset_p32xxxx.h  \
- ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efh144.h  \
+ ../../../../../framework/peripheral/reset/processor/reset_p32mz2048efm144.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_ResetReasonStatus_MZ.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_SoftwareResetTrigger_Default.h  \
  ../../../../../framework/peripheral/reset/processor/../templates/reset_ConfigRegReadError_Default.h  \
