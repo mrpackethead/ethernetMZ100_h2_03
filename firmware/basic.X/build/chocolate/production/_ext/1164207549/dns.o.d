@@ -303,5 +303,4 @@ build/chocolate/production/_ext/1164207549/dns.o:  \
  ../../../../../framework/tcpip/src/tcpip_packet.h  \
  ../../../../../framework/tcpip/src/oahash.h  \
  ../../../../../framework/tcpip/src/hash_fnv.h  \
- ../../../../../framework/tcpip/src/tcpip_notify.h  \
- ../../../../../framework/tcpip/src/dns_private.h 
+ ../../../../../framework/tcpip/src/tcpip_notify.h 

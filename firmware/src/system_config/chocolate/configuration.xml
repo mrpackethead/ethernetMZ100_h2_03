@@ -877,8 +877,7 @@
       <Template dnOrder="13">
         <Name dnOrder="0">system_init.c</Name>
         <Path dnOrder="1">Source Files/app/system_config/chocolate</Path>
-        <Checksum dnOrder="2">8372DE9029B623C65FBE1C9D8C3B8902</Checksum>
-        <ProjectFileChecksum dnOrder="3">1ABF683C43FA49570D276B3D59F3D271</ProjectFileChecksum>
+        <Checksum dnOrder="2">3F1760F5D80DA2C6746C0188E05D4B89</Checksum>
       </Template>
       <Template dnOrder="14">
         <Name dnOrder="0">sys_clk_pic32mz.c</Name>
@@ -907,8 +906,8 @@
       <Template dnOrder="19">
         <Name dnOrder="0">system_config.h</Name>
         <Path dnOrder="1">Header Files/app/system_config/chocolate</Path>
-        <Checksum dnOrder="2">4D9B2061D7C7FFE4F10E9E888F2E7BDF</Checksum>
-        <ProjectFileChecksum dnOrder="3">6BB0AB824D0C1B781953A142668D5473</ProjectFileChecksum>
+        <Checksum dnOrder="2">A5F05D64FC80CFF1D00581CE7F134267</Checksum>
+        <ProjectFileChecksum dnOrder="3">5DAFAF61AA6D74A56A9BF62AA9636167</ProjectFileChecksum>
       </Template>
       <Template dnOrder="20">
         <Name dnOrder="0">sys_devcon_local.h</Name>
@@ -923,11 +922,11 @@
     </Templates>
     <CompilerItems dnOrder="2">
       <C32 dnOrder="0">
-        <Include dnOrder="0" value="C:\microchip\harmony\v2_03b\apps\chocboot\basic\firmware\src"/>
-        <Include dnOrder="1" value="C:\microchip\harmony\v2_03b\apps\chocboot\basic\firmware\src\system_config\chocolate"/>
-        <Include dnOrder="2" value="C:\microchip\harmony\v2_03b\apps\chocboot\basic\firmware\src\chocolate"/>
+        <Include dnOrder="0" value="C:\microchip\harmony\v2_03b\apps\chocboot\ethernetMZ100_h2_03\firmware\src"/>
+        <Include dnOrder="1" value="C:\microchip\harmony\v2_03b\apps\chocboot\ethernetMZ100_h2_03\firmware\src\system_config\chocolate"/>
+        <Include dnOrder="2" value="C:\microchip\harmony\v2_03b\apps\chocboot\ethernetMZ100_h2_03\firmware\src\chocolate"/>
         <Include dnOrder="3" value="C:\microchip\harmony\v2_03b\framework"/>
-        <Include dnOrder="4" value="C:\microchip\harmony\v2_03b\apps\chocboot\basic\firmware\src\system_config\chocolate\framework"/>
+        <Include dnOrder="4" value="C:\microchip\harmony\v2_03b\apps\chocboot\ethernetMZ100_h2_03\firmware\src\system_config\chocolate\framework"/>
         <Include dnOrder="5" value="../src/system_config/chocolate/bsp"/>
       </C32>
     </CompilerItems>

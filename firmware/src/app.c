@@ -116,6 +116,7 @@ int APP_ForceBootloaderCheck(void)
         LED2On();
         return (1);
         }
+    
 #endif
     
 #if defined(EFSTARTERKIT)
@@ -156,12 +157,6 @@ int APP_ForceBootloaderCheck(void)
  */
 void APP_Initialize ( void )
 {
- 
-
-    
-  
-   
-    
     // Register the bootloader callbacks
     BOOTLOADER_ForceBootloadRegister(APP_ForceBootloaderCheck);
 }
